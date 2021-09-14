@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card Exercise</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+
+
+        <div class="mainContainer">
+            <section class="section1">
+                <div class="container">
+                    <div class="head"></div>
+                    <div class="body">
+                        <img src="./icons/user-circle.png" alt="user icon" id="user">
+                        <h2 class="User">Jane Doe</h2>
+                        <div class="state">
+                            <img src="./icons/map-marker.png" alt="map marker icon" id="marker">
+                            <h3>Seattle</h3>
+                        </div>
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                        <div class="profile">
+                            <img src="./icons/gear.png" alt="" id="gear">
+                            <a href="">edit profile</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="headG">Education</div>
+                    <div class="body2">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+
+                        <p class="pdate">Dec 2019 - Mar 2020</p>
+                        <p class="pbelt">Triple black belt in Python, MERN, and C#...</p>
+
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <section class="section2">
+                <div class="container3">
+                    <div class="headG"><span id="conectReq" class="spanHeadG">2</span>Connection Requests</div>
+                    <div class="body3">
+                        <table class="tRequest">
+
+                            <head>
+                                <tr>
+                                    <th class="thUser"></th>
+                                    <th class="thIcon"></th>
+                                </tr>
+                            </head>
+                            <tbody class="bRequest">
+                                <tr>
+                                    <td class="tdUser">
+                                        <img src="./images/todd-s.jpg" alt="todd avatar">
+                                        <div class="dUser">Todd E</div>
+                                    </td>
+                                    <td class="tdicon">
+                                        <img src="./icons/accept-circle.png" alt="accept icon" class="acceptBtn">
+                                        <img src="./icons/close-circle.png" alt="close icon" class="closeBtn">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdUser">
+                                        <img src="./images/phil-s.jpg" alt="phil avatar">
+                                        <div class="dUser">Phil K</div>
+                                    </td>
+                                    <td class="tdicon">
+                                        <img src="./icons/accept-circle.png" alt="accept icon" class="acceptBtn">
+                                        <img src="./icons/close-circle.png" alt="close icon" class="closeBtn">
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+
+                <div class="container4">
+                    <div class="headG"> <span id="yourConect" class="spanHeadG">500</span> Your Connections</div>
+                    <div class="body4">
+                        <table class="tConnections">
+                            <thead>
+                                <tr>
+                                    <th class="thIcon"></th>
+                                    <th class="thUser"></th>
+                                </tr>
+                            </thead>
+                            <tbody class="bConnections">
+                                <tr>
+                                    <td class="tdUserC">
+                                        <img src="./images/adrien-s.jpg" alt="adrien avatar">
+                                    </td>
+                                    <td>
+                                        Adrien D
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdUserC">
+                                        <img src="./images/anne-s.jpg" alt="anne avatar">
+                                    </td>
+                                    <td>
+                                        Anne J
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdUserC">
+                                        <img src="./images/alayne-s.jpg" alt="alayne avatar">
+                                    </td>
+                                    <td>
+                                        Alayne T
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdUserC">
+                                        <img src="./images/arry-s.jpg" alt="arry avatar">
+                                    </td>
+                                    <td>
+                                        Arry Y
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="view">
+                    <a href="">View More</a>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
